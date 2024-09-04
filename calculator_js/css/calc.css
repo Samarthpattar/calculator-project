@@ -1,0 +1,115 @@
+
+.main{
+    position: relative;
+    display: block;
+    background-color: #99c089;
+    width: 50%;
+    height: 426px;
+    margin: auto;
+
+}
+.b_Allclear{
+    position: absolute;
+    background-color: transparent;
+    top: 354px;
+    bottom: 352;
+    left: 377px;
+    width: 61px;
+    height:28px;
+    font-family: cursive;
+    border-radius: 50%;
+    font-weight: bold;
+}
+
+
+
+.calc{
+    position: absolute;
+    display: block;
+    background-color: #4e4e4e;
+    height: 341px;
+    width: 282px;
+    margin-left: 80px;
+    margin-top: 40px;
+    border-radius: 20px;
+    box-shadow: 0px 8px black;
+}
+.disp
+{
+    position: absolute;
+    display: block;
+    background-color: #bcd1c0;
+    width: 245px;
+    height: 50px;
+    margin:20px;
+    border-radius:5px ;
+    
+}
+#d1{
+    position: absolute;
+    background-color: transparent;
+    height: 18px;
+    width: 246px;
+    text-align: right;
+    font-family: cursive;
+}
+#d2{
+    position: relative;
+    background-color: transparent;
+    height: 32px;
+    top: 18px;
+    font-family:'digital-clock-font';
+    font-family: cursive;
+    font-size: 28px;
+    text-align: right;
+}
+
+
+.buttons
+{
+    position: absolute;
+    display: block;
+    background-color: transparent;
+    height: 165px;
+    width: 265px;
+    top: 90px;
+    left: 20px;
+    border-radius: 5px;
+
+}
+.boxdiv{
+    position: relative;
+    display: inline-block;
+    width: 55px;
+    height: 55px;
+    margin: 5px;
+    background-color: #ebebeb;
+    color: #212121;
+    font-weight: bold;
+    border-radius: 8px;
+    bottom: 10px;
+    right: 10px;
+    text-align: center;
+    line-height:52px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: xx-large;   
+    
+}
+
+#num_div{
+    position: absolute;
+
+    display: block;
+    width: 196px;
+}
+
+#symb_div{
+    position: absolute;
+    left: 196px;
+}
+#bottom_id{
+    position: relative;
+    top: 195px;
+    left: 1px;
+}
+ 
