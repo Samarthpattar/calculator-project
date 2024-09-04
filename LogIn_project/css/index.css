@@ -1,0 +1,139 @@
+#main{
+    position: relative;
+    width: auto;
+    height: 250px;
+    background: #CDDC39;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+
+.formDiv,.feedbackDiv{
+    position: relative;
+    width: 39%;
+    display: inline-block;
+    padding: 5%;
+    margin: 0;
+
+}
+
+.form label{
+    position: relative;
+    display: block;
+    background-color: beige;
+    border-radius: 13px;
+    padding: 12px;
+    margin: 15px;
+    border: 1px solid black;
+}
+
+.form label input{
+    position: relative;
+    width: 65%;
+    margin-left: 20px;
+    height: 25px;
+    border: none;
+    border-radius: 5px;
+}
+
+#f_box{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 60px;
+    padding: 15px;
+    background-color: aliceblue;
+    border: 1px solid black;
+    border-radius: 7px;
+    text-align: center;
+}
+
+
+#login{
+    position: absolute;
+    display: inline-block;
+    width: 98px;
+    height: 27px;
+    background-color: #00BCD4;
+    border: 1px solid blue;
+    border-radius: 13px;
+    margin-left: 28%;
+    text-align: center;
+    line-height: 23px;
+    
+}
+#login:hover{
+    background-color:red;
+}
+
+#rik:hover{
+    background-color: brown;
+}
+.counter{
+    position: relative;
+    display: block;
+    background-color: brown;
+    height: 150px;
+    padding: 4px;
+    border: 1px solid black;
+    margin: 0;
+}
+#p_id{
+    position: relative;
+    display: block;
+    width: 145px;
+    height: 38px;
+    border: 2px solid white;
+    margin-left: 50%;
+    line-height: 26px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: monospace;
+    padding: 5px;
+    box-sizing: border-box;
+}
+.button{
+    position: relative;
+    display: inline-block;
+    width: 85px;
+    height: 36px;
+    background-color: bisque;
+    border: 2px solid black;
+    border-radius: 9px;
+    margin-left: 29%;
+    font-weight: bold;
+}
+
+
+.color{
+    background-color: green;
+
+}
+.container_b{
+    position: relative;
+    display: block;
+    border: 1px solid black;
+    width: 100%;
+    height: 160px;
+    background-color: chocolate;
+}
+.box{
+    position: relative;
+    display: block;
+    width: 109px;
+    height: 30px;
+    border: 1px solid black;
+    float: left;
+    margin-left: 10%;
+    margin-bottom: 5px;
+    margin-top: 12px;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: teal;
+    color: burlywood;
+    font-style: italic;
+    font-family: fantasy;
+}
