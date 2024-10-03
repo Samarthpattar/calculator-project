@@ -1,0 +1,101 @@
+/* .container{
+    width: 940px;
+    height: 464px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.calculator{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: azure;
+
+}
+form input {
+    border: none;
+    outline: 0;
+    width: 60px;
+    height: 60px;
+    font-size: 16px;
+    background-color: rgb(63, 35, 47);
+    margin: 2px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bolder;
+   
+  }
+  form input[type="button"]:hover {
+    background-color: rgb(226, 52, 52);
+  }
+  form .display {
+    display: flex;
+    justify-content: flex-end;
+    margin: 5px 0px 15px 0px;
+  }
+  form .display input {
+    text-align: left;
+    flex:1;
+    font-size: 40px;
+    padding: 5px 10px;
+    background-color: rgb(64, 64, 64);
+  }
+  
+  form input.equal{
+    width: 123px;
+  }
+ */
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 570px;
+    width: 1025px;
+}
+.calculator{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: azure;
+
+
+}
+form input {
+    border: none;
+    outline: none;
+    height: 27px;
+    width: 53px;
+    padding: 21px 0px 21px 2px;
+    line-height: 0;
+    background-color: deepskyblue;
+    color: saddlebrown;
+    font-weight: 900;
+    border-radius: 7px;
+    margin: 7px 4px 6px 2px
+   
+  }
+
+  form input.equal{
+    width: 111px;
+
+  }
+  form input[type=Button]:hover{
+    background-color: brown;
+  }
+form.display {
+    display: flex;
+    justify-content: flex-end;
+    margin: 5px 0px 15px 0px;
+  
+}
+form .display input {
+    text-align: left;
+    flex:1;
+    font-size: 20px;
+    padding: 5px 10px;
+    background-color: rgb(43, 32, 19);
+    width: 209px;
+    height: 41px;
+    color: beige;
+}
